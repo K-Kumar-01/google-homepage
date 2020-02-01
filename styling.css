@@ -1,0 +1,152 @@
+ul{
+  list-style-type: none;
+}
+li a{
+  text-decoration: none;
+
+}
+li a:hover{
+  text-decoration: underline;
+}
+.topbar{
+  position:absolute;
+  right:25px;
+  top:5px;
+}
+.righttop
+{
+
+  color:rgba(0,0,0,0.9);
+}
+.righttop li{
+  float:left;
+  font-size:12px;
+
+}
+
+.righttop li a{
+  display: block;
+  padding:8px;
+
+}
+#sign{
+  color:white;
+  font-weight: bold;
+
+  background-color: rgba(0,0,255,0.7);
+  border: 1px solid blue;
+  width:80px;
+  font-size:14px;
+  height:35px;
+  border-radius: 5px;
+}
+
+#goimage{
+  position:absolute;
+  top:225px;
+  left:850px;
+  margin:auto;
+}
+.Search-section{
+  position: absolute;
+  top:325px;
+  left:705px;
+}
+input{
+  width:565px;
+  height:40px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 25px;
+
+
+}
+input:hover{
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.25);
+  border: 1px solid rgba(0,0,0,0.5);
+}
+button{
+
+  background-color: rgba(0,0,0,0.04);
+  color:rgba(0,0,0,0.6);
+  height:35px;
+  width:150px;
+  border-radius: 5px;
+  text-align:center;
+  cursor:pointer;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+.buttonsection button:hover{
+  border: 1px solid rgba(0,0,0,0.4);
+  color:rgba(0,0,0,0.9);
+  background-image:-webkit-linear-gradient(top,white,rgba(0,0,0,0.1));
+}
+.buttonsection{
+  position: relative;
+  margin-top:40px;
+  left:100px;
+}
+#Feelinglucky{
+  position: relative;
+  left:5px;
+}
+.languages li{
+  float:left;
+  font-size:12px;
+  position:relative;
+  left:-20px;
+
+}
+.languages li a{
+  position: relative;
+  left:5px;
+  color:blue;
+  padding:5px;
+}
+#lowerbar{
+  position: absolute;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.05);
+  width:100%;
+  left:0px;
+  bottom: 0px;
+}
+#ctry{
+  position: relative;
+  left:-5px;
+  color:gray;
+  font-size:14px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+#lowerleft{
+  position: relative;
+  left:-10px;
+  bottom:5px;
+}
+#lowerleft li{
+  float:left;
+  font-size:14px;
+}
+#lowerleft li a{
+  display:block;
+  padding:5px;
+  color:gray;
+}
+#lowerright{
+  position: relative;
+  right:10px;
+  bottom:5px;
+}
+
+#lowerright li{
+  float:right;
+  font-size:14px;
+  margin-right: 10px;
+}
+
+#lowerright li a{
+  display:block;
+  padding-top: 5px;
+  padding-left:15px;
+  color:gray;
+
+}
